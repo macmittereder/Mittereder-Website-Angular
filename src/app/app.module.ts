@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 import { IndexComponent } from './index/index.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { GradezComponent } from './projects/gradez/gradez.component';
@@ -36,7 +37,8 @@ import { WordsandmusicComponent } from './projects/wordsandmusic/wordsandmusic.c
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    NgbAlertModule
   ],
   providers: [],
   bootstrap: [AppComponent]
